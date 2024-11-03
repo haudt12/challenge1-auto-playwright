@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","7408","@TC_Template_01 Open a single-page template","chromium","Sun Nov 03 21:42:26 GMT+07:00 2024","failed","Sun Nov 03 21:42:34 GMT+07:00 2024","Function: Create new template","modules\templates\editor_template.spec.ts","",""
+"","28287","@TC_Template_02 Open a multi-page template (Multi-page template is a template that has two or more pages)","chromium","Sun Nov 03 21:42:53 GMT+07:00 2024","failed","Sun Nov 03 21:43:21 GMT+07:00 2024","Function: Create new template","modules\templates\editor_template.spec.ts","",""
+"","18943","@TC_Template_03 Change style of a textbox","chromium","Sun Nov 03 21:40:45 GMT+07:00 2024","passed","Sun Nov 03 21:41:03 GMT+07:00 2024","Function: Create new template","modules\templates\editor_template.spec.ts","",""

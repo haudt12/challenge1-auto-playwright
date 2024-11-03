@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "module": "commonjs",
+    "target": "es2022",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "@*": ["src/*"],
+      "@pages/*": ["src/pages/*"],
+      "@api/*": ["src/api/*"],
+      "@fixtures/*": ["src/fixtures/*"],
+      "@tp_pages/*": ["src/pages/categories/*"],
+      "@au_pages/*": ["src/pages/auth/*"],
+    },
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  }
+}

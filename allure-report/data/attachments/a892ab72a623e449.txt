@@ -1,0 +1,61 @@
+Error clicking on close button for //div[contains(text(),'テンプレートを選択')]/../parent::div: page.waitForTimeout: Target page, context or browser has been closed
+    at TemplateEditor.openMenuテキスト (C:\Users\Admin\Desktop\HauDT_Challenge\challenge1_automation_test_playwright\src\pages\categories\templates\template_editor.ts:148:27)
+    at C:\Users\Admin\Desktop\HauDT_Challenge\challenge1_automation_test_playwright\tests\modules\templates\editor_template.spec.ts:57:7
+    at C:\Users\Admin\Desktop\HauDT_Challenge\challenge1_automation_test_playwright\tests\modules\templates\editor_template.spec.ts:56:5 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@15',
+    location: {
+      file: 'C:\\Users\\Admin\\Desktop\\HauDT_Challenge\\challenge1_automation_test_playwright\\src\\pages\\categories\\templates\\template_editor.ts',
+      line: 148,
+      column: 27,
+      function: 'TemplateEditor.openMenuテキスト'
+    },
+    category: 'pw:api',
+    title: 'page.waitForTimeout',
+    apiName: 'page.waitForTimeout',
+    params: { timeout: 2000 },
+    boxedStack: undefined,
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1730639452003,
+    error: {
+      message: 'Error: page.waitForTimeout: Target page, context or browser has been closed',
+      stack: 'Error: page.waitForTimeout: Target page, context or browser has been closed\n' +
+        '    at TemplateEditor.openMenuテキスト (C:\\Users\\Admin\\Desktop\\HauDT_Challenge\\challenge1_automation_test_playwright\\src\\pages\\categories\\templates\\template_editor.ts:148:27)\n' +
+        '    at C:\\Users\\Admin\\Desktop\\HauDT_Challenge\\challenge1_automation_test_playwright\\tests\\modules\\templates\\editor_template.spec.ts:57:7\n' +
+        '    at C:\\Users\\Admin\\Desktop\\HauDT_Challenge\\challenge1_automation_test_playwright\\tests\\modules\\templates\\editor_template.spec.ts:56:5'
+    }
+  }
+}
+Error clicking on close button for //div[contains(@class,'ant-modal-content')]: locator.isVisible: Target page, context or browser has been closed
+    at TemplateEditor.openMenuテキスト (C:\Users\Admin\Desktop\HauDT_Challenge\challenge1_automation_test_playwright\src\pages\categories\templates\template_editor.ts:146:34)
+    at C:\Users\Admin\Desktop\HauDT_Challenge\challenge1_automation_test_playwright\tests\modules\templates\editor_template.spec.ts:57:7
+    at C:\Users\Admin\Desktop\HauDT_Challenge\challenge1_automation_test_playwright\tests\modules\templates\editor_template.spec.ts:56:5 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@16',
+    location: {
+      file: 'C:\\Users\\Admin\\Desktop\\HauDT_Challenge\\challenge1_automation_test_playwright\\src\\pages\\categories\\templates\\template_editor.ts',
+      line: 146,
+      column: 34,
+      function: 'TemplateEditor.openMenuテキスト'
+    },
+    category: 'pw:api',
+    title: "locator.isVisible(//div[contains(@class,'ant-modal-content')])",
+    apiName: 'locator.isVisible',
+    params: {
+      selector: "//div[contains(@class,'ant-modal-content')]",
+      strict: true
+    },
+    boxedStack: undefined,
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1730639452017,
+    error: {
+      message: 'Error: locator.isVisible: Target page, context or browser has been closed',
+      stack: 'Error: locator.isVisible: Target page, context or browser has been closed\n' +
+        '    at TemplateEditor.openMenuテキスト (C:\\Users\\Admin\\Desktop\\HauDT_Challenge\\challenge1_automation_test_playwright\\src\\pages\\categories\\templates\\template_editor.ts:146:34)\n' +
+        '    at C:\\Users\\Admin\\Desktop\\HauDT_Challenge\\challenge1_automation_test_playwright\\tests\\modules\\templates\\editor_template.spec.ts:57:7\n' +
+        '    at C:\\Users\\Admin\\Desktop\\HauDT_Challenge\\challenge1_automation_test_playwright\\tests\\modules\\templates\\editor_template.spec.ts:56:5'
+    }
+  }
+}

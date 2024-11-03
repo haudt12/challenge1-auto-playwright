@@ -1,0 +1,11 @@
+{
+  "singlePageItemUrl":"https://www.design-ac.net/free-template/flyer-template-19399",
+  "multiplePageItemUrl":"https://www.design-ac.net/free-template/presentation-template-18719",
+  "blankDesignUrl":"https://www.design-ac.net/design/new-blank",
+  "data": {
+    "font-size": "30",
+    "path_1": "@fixtures/snapshot_1.png",
+    "path_2": "@fixtures/snapshot_2.png",
+    "path_3": "@fixtures/snapshot_3.png"
+  }
+}

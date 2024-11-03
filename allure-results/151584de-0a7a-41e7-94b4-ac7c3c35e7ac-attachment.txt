@@ -1,0 +1,40 @@
+Error clicking on close button: locator.click: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('//button[contains(@class,\'ant-modal-close\')]')
+
+    at TemplateEditor.verifyDisplayTemplateMenu (C:\Users\Admin\Desktop\HauDT_Challenge\challenge1_automation_test_playwright\src\pages\categories\templates\template_editor.ts:91:61)
+    at C:\Users\Admin\Desktop\HauDT_Challenge\challenge1_automation_test_playwright\tests\modules\templates\editor_template.spec.ts:25:7
+    at C:\Users\Admin\Desktop\HauDT_Challenge\challenge1_automation_test_playwright\tests\modules\templates\editor_template.spec.ts:21:5 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@627',
+    location: {
+      file: 'C:\\Users\\Admin\\Desktop\\HauDT_Challenge\\challenge1_automation_test_playwright\\src\\pages\\categories\\templates\\template_editor.ts',
+      line: 91,
+      column: 61,
+      function: 'TemplateEditor.verifyDisplayTemplateMenu'
+    },
+    category: 'pw:api',
+    title: "locator.click(//button[contains(@class,'ant-modal-close')])",
+    apiName: 'locator.click',
+    params: {
+      selector: "//button[contains(@class,'ant-modal-close')]",
+      strict: true
+    },
+    boxedStack: undefined,
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1730641790580,
+    error: {
+      message: 'Error: locator.click: Test timeout of 30000ms exceeded.\n' +
+        'Call log:\n' +
+        "  \x1B[2m- waiting for locator('//button[contains(@class,\\'ant-modal-close\\')]')\x1B[22m\n",
+      stack: 'Error: locator.click: Test timeout of 30000ms exceeded.\n' +
+        'Call log:\n' +
+        "  \x1B[2m- waiting for locator('//button[contains(@class,\\'ant-modal-close\\')]')\x1B[22m\n" +
+        '\n' +
+        '    at TemplateEditor.verifyDisplayTemplateMenu (C:\\Users\\Admin\\Desktop\\HauDT_Challenge\\challenge1_automation_test_playwright\\src\\pages\\categories\\templates\\template_editor.ts:91:61)\n' +
+        '    at C:\\Users\\Admin\\Desktop\\HauDT_Challenge\\challenge1_automation_test_playwright\\tests\\modules\\templates\\editor_template.spec.ts:25:7\n' +
+        '    at C:\\Users\\Admin\\Desktop\\HauDT_Challenge\\challenge1_automation_test_playwright\\tests\\modules\\templates\\editor_template.spec.ts:21:5'
+    }
+  }
+}
